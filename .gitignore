@@ -1,0 +1,11 @@
+# Temporary build artifacts are kept out of version control.
+tmp/
+
+# Jupyter and Python-generated local files.
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Common operating-system metadata.
+.DS_Store
+Thumbs.db
