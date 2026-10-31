@@ -1,7 +1,7 @@
 # HealthConnect Rwanda Healthcare Analytics & Predictive Modeling Project
 
 ## Project Overview
-HealthConnect Rwanda is a healthcare provider network with patient, clinical, operational, financial, and patient feedback data. This project develops an end-to-end analytics workflow covering data acquisition, relational integration, data quality assessment, exploratory analysis, feature engineering, statistical testing, forecasting, predictive modeling, clustering, and evidence-based business recommendations.
+HealthConnect Rwanda is a healthcare provider network with patient, clinical, operational, financial, and patient feedback data. This repository contains the HealthConnect Rwanda work developed across Weeks 6 and 7. Week 6 established the integrated analytics workflow; Week 7 tests and refines the admission model, documents errors and limitations, and records the cross-track validation work.
 
 The analytical master dataset contains 5,000 appointment records for 4,443 distinct patients. The project uses 30 logical tables sourced from 37 files and workbook sheets.
 
@@ -17,7 +17,7 @@ The master analytical pipeline is built at the appointment grain and connects th
 
 ## Repository Directory Structure
 ```text
-Week6_DataScience_HealthConnect_DorianNJAMI/
+HealthConnect_Rwanda_Project/
 │
 ├── Data/
 │   ├── Cleaned_Datasets/
@@ -27,7 +27,8 @@ Week6_DataScience_HealthConnect_DorianNJAMI/
 │
 ├── Notebook/
 │   ├── Week6_HealthConnect_Rwanda.ipynb    # Main notebook with the complete analysis workflow
-│   └── Week6_HealthConnect_Rwanda.html     # HTML export of the notebook
+│   ├── Week6_HealthConnect_Rwanda.html     # HTML export of the Week 6 notebook
+│   └── Week7_HealthConnect_Rwanda_Testing.ipynb  # Week 7 model testing and validation
 │
 ├── Presentation/
 │   └── Week6_Executive_Presentation.pptx   # Executive presentation (12 slides)
@@ -47,5 +48,7 @@ Week6_DataScience_HealthConnect_DorianNJAMI/
 │
 └── README.md
 ```
+
+The Week 7 notebook reuses the cleaned master dataset from Week 6 rather than duplicating source data. Its final temporal evaluation found no reliable improvement over the prior-rate reference, so the admission model is not approved for operational use. The dataset does not contain a validated attendance/no-show target.
 
 The cleaned master dataset has one row per appointment and no remaining null cells. The engineered feature dataset intentionally preserves missing values for fields that cannot be inferred safely from the source data, including unknown clinical history and unavailable feedback.
