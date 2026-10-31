@@ -28,7 +28,8 @@ HealthConnect_Rwanda_Project/
 ├── Notebook/
 │   ├── Week6_HealthConnect_Rwanda.ipynb    # Main notebook with the complete analysis workflow
 │   ├── Week6_HealthConnect_Rwanda.html     # HTML export of the Week 6 notebook
-│   └── Week7_HealthConnect_Rwanda_Testing.ipynb  # Week 7 model testing and validation
+│   ├── Week7_HealthConnect_Rwanda_Testing.ipynb  # Week 7 model testing and validation
+│   └── Week7_HealthConnect_Rwanda_Testing.html    # HTML export of the Week 7 notebook
 │
 ├── Presentation/
 │   └── Week6_Executive_Presentation.pptx   # Executive presentation (12 slides)
@@ -39,7 +40,9 @@ HealthConnect_Rwanda_Project/
 │   ├── Week6_Part6_Statistical_Analysis_Report.pdf
 │   ├── Week6_Part7_Predictive_Analytics_Report.pdf
 │   ├── Week6_Technical_Report.pdf          # Consolidated technical project report
-│   └── Week6_Executive_Summary.pdf
+│   ├── Week6_Executive_Summary.pdf
+│   ├── Week7_Technical_Report.pdf
+│   └── Week7_Social_Media_Posts.md
 │
 ├── Visualizations/
 │   ├── Charts/                              # Numbered chart exports (Visual 1 to Visual 41)
