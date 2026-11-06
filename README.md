@@ -53,6 +53,6 @@ HealthConnect_Rwanda_Project/
 └── README.md
 ```
 
-The Week 7 notebook reuses the cleaned master dataset from Week 6 rather than duplicating source data. Week 7 did not show reliable improvement over a prior-rate reference. Week 8 documents a discrepancy between the Data Analytics source inventory and the repository Admissions worksheet, including 4,414 unmatched admission keys. No final admission model is approved until the target lineage is reconciled. The project data do not contain a validated attendance/no-show target.
+The Week 7 notebook reuses the cleaned master dataset from Week 6 rather than duplicating source data. Week 7 did not show reliable improvement over a prior-rate reference. Week 8 confirms that the source workbook contains an Admissions worksheet and documents 4,414 keys that do not match appointment records. No final admission model is approved until the target lineage is reconciled. The project data do not contain a validated attendance/no-show target.
 
 The cleaned master dataset has one row per appointment and no remaining null cells. The engineered feature dataset intentionally preserves missing values for fields that cannot be inferred safely from the source data, including unknown clinical history and unavailable feedback.
