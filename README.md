@@ -33,7 +33,8 @@ HealthConnect_Rwanda_Project/
 │   └── Week8_HealthConnect_Rwanda_Final_Integration.ipynb  # Week 8 final model and readiness package
 │
 ├── Presentation/
-│   └── Week6_Executive_Presentation.pptx   # Executive presentation (12 slides)
+│   ├── Week6_Executive_Presentation.pptx   # Executive presentation (12 slides)
+│   └── Week8_HealthConnect_Final_Model_Review.pptx  # Week 8 final model review (9 slides, ~7 minutes)
 │
 ├── Reports/
 │   ├── Week6_Part2_Data_Quality_Report.pdf
@@ -52,6 +53,8 @@ HealthConnect_Rwanda_Project/
 │
 └── README.md
 ```
+
+The French Week 8 learning notebook and the personal speaker script with French practice notes are kept outside Git. The English Week 8 presentation is included as a final project deliverable.
 
 The Week 7 notebook reuses the cleaned master dataset from Week 6 rather than duplicating source data. Week 7 did not show reliable improvement over a prior-rate reference. Week 8 confirms that the source workbook contains an Admissions worksheet and documents 4,414 keys that do not match appointment records. No final admission model is approved until the target lineage is reconciled. The project data do not contain a validated attendance/no-show target.
 
