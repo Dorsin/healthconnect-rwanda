@@ -44,7 +44,8 @@ HealthConnect_Rwanda_Project/
 │   ├── Week6_Technical_Report.pdf          # Consolidated technical project report
 │   ├── Week6_Executive_Summary.pdf
 │   ├── Week7_Technical_Report.pdf
-│   └── Week7_Social_Media_Posts.md
+│   ├── Week7_Social_Media_Posts.md
+│   └── Week8_Presentation_Speaker_Script_EN_FR.docx  # English speech with French practice notes
 │
 ├── Visualizations/
 │   ├── Charts/                              # Numbered chart exports (Visual 1 to Visual 41)
@@ -54,7 +55,7 @@ HealthConnect_Rwanda_Project/
 └── README.md
 ```
 
-The French Week 8 learning notebook and the personal speaker script with French practice notes are kept outside Git. The English Week 8 presentation is included as a final project deliverable.
+The French Week 8 learning notebook is kept outside Git. The Week 8 presentation and its speaker script, which includes French practice notes, are included as project deliverables.
 
 The Week 7 notebook reuses the cleaned master dataset from Week 6 rather than duplicating source data. Week 7 did not show reliable improvement over a prior-rate reference. Week 8 confirms that the source workbook contains an Admissions worksheet and documents 4,414 keys that do not match appointment records. No final admission model is approved until the target lineage is reconciled. The project data do not contain a validated attendance/no-show target.
 
