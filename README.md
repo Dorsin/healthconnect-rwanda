@@ -7,11 +7,11 @@ The analytical master dataset contains 5,000 appointment records for 4,443 disti
 
 ## Relational Architecture & Dataset Coverage
 The master analytical pipeline is built at the appointment grain and connects the available healthcare entities through their identifiers:
-- **Patients & Geography:** Patient demographics, recorded chronic conditions, insurance identifiers, and geographic hierarchy from provinces through villages.
-- **Appointments, Doctors & Departments:** Appointment dates and types, patient links, provider attributes, department identifiers, and facility references.
-- **Clinical Activity:** Diagnoses, admissions, laboratory tests, prescriptions, and referrals associated with appointments.
-- **Billing & Payments:** Billing records, payment transactions, and insurance claims linked through appointment and billing identifiers.
-- **Operations & Experience:** Staff, beds, equipment, services, specialties, and patient feedback records.
+- **Patients & Geography:** Patient demographics, recorded chronic conditions, insurance identifiers, and geographic hierarchy from provinces through villages
+- **Appointments, Doctors & Departments:** Appointment dates and types, patient links, provider attributes, department identifiers, and facility references
+- **Clinical Activity:** Diagnoses, admissions, laboratory tests, prescriptions, and referrals associated with appointments
+- **Billing & Payments:** Billing records, payment transactions, and insurance claims linked through appointment and billing identifiers
+- **Operations & Experience:** Staff, beds, equipment, services, specialties, and patient feedback records
 
 *Note: `HC_Revenue_Summary.csv` is retained as a standalone source because it has no reliable key for allocation to appointments, departments, or facilities. Financial analysis therefore uses appointment-linked billing and payment transactions. Insurance identifiers do not establish active coverage, and roster records do not measure time-based staffing or facility utilization.*
 
